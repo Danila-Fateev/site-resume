@@ -1,3 +1,5 @@
+import SharedLayout from 'components/SharedLayout';
+
 export const App = () => {
   return (
     <div
@@ -11,6 +13,7 @@ export const App = () => {
         backgroundColor: '#141F47',
       }}
     >
+      <SharedLayout></SharedLayout>
       Site resume
     </div>
   );
