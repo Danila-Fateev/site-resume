@@ -33,6 +33,7 @@ code {
 
 @font-face {
   font-family: 'Righteous';
-  src: url('./fonts/Righteous-Regular.ttf') format('ttf');
+  src: local('Righteous'),
+    url('../src/fonts/Righteous-Regular.ttf') format('ttf');
   font-weight: 400;
 }
