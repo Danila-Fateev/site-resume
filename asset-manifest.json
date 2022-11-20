@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/site-resume/static/css/main.10cb319b.css",
+    "main.js": "/site-resume/static/js/main.f36e627b.js",
+    "static/media/Righteous-Regular.ttf": "/site-resume/static/media/Righteous-Regular.fd0110471f2228c1808a.ttf",
+    "index.html": "/site-resume/index.html",
+    "main.10cb319b.css.map": "/site-resume/static/css/main.10cb319b.css.map",
+    "main.f36e627b.js.map": "/site-resume/static/js/main.f36e627b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10cb319b.css",
+    "static/js/main.f36e627b.js"
+  ]
+}
