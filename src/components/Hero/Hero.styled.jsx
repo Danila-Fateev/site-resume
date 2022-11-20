@@ -10,11 +10,13 @@ const HeroBox = styled.div`
   font-weight: 400;
   font-size: 28px;
   line-height: 1.21;
+  letter-spacing: 0.07em;
 `;
 
 const HeroText = styled.p`
   font-size: 64px;
   line-height: 1.25;
+  letter-spacing: 0.06em;
 `;
 
 const HeroSpan = styled.span`

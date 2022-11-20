@@ -8,6 +8,7 @@ const Hero = () => {
   return (
     <Container>
       <Section>
+        <h1 style={{ visibility: 'hidden' }}>About me</h1>
         <HeroBox>
           <p>Hello, my name is</p>
           <HeroText>
