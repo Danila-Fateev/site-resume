@@ -7,7 +7,7 @@ const { ProjectTitle } = styledComponents;
 const Projects = () => {
   return (
     <Section>
-      <ProjectTitle>Projects</ProjectTitle>
+      <ProjectTitle id="projects">Projects</ProjectTitle>
       <ProjectBox />
     </Section>
   );
