@@ -39,8 +39,7 @@ const ProjectTextBox = styled.div`
   position: absolute;
   top: -999999px;
   left: -999999px;
-  width: 100%;
-  height: 100%;
+
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 50px;
