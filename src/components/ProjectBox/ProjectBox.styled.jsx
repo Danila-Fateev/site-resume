@@ -24,16 +24,33 @@ const ProjectLabel = styled.label`
   color: #f8f8f8;
   padding: 20px;
   letter-spacing: 0.07em;
-  border: 1px solid #28568c;
+  border-right: 1px solid #28568c;
+  border-bottom: 1px solid #28568c;
 
   &:hover {
     cursor: pointer;
   }
 `;
 
-const ProjectTextHeading = styled.h3``;
+const ProjectTextHeading = styled.h3`
+  font-family: 'Righteous';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.23;
+  letter-spacing: 0.07em;
 
-const ProjectText = styled.p``;
+  color: #000000;
+`;
+
+const ProjectText = styled.p`
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+
+  padding: 25px;
+`;
 
 const ProjectTextBox = styled.div`
   position: absolute;
