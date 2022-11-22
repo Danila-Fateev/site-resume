@@ -9,6 +9,7 @@ const {
   ProjectTextHeading,
   ProjectText,
   ProjectTextBox,
+  ProjectLinks,
 } = styledComponents;
 
 const ProjectBox = () => {
@@ -16,6 +17,7 @@ const ProjectBox = () => {
     if (e) {
       const projectInput = e.currentTarget;
       projectInput.parentElement.style.background = '#0EC5FF';
+      projectInput.parentElement.style.color = '#000000';
 
       const projectInfo = document.querySelectorAll('#projectInfo');
       const chosenProjectInfo = [...projectInfo].find(
@@ -29,9 +31,12 @@ const ProjectBox = () => {
 
       chosenProjectInfo.style.position = 'static';
 
-      [...document.querySelectorAll('#projectInput')].find(
-        el => !el.checked
-      ).parentElement.style.backgroundColor = '#141F47';
+      [...document.querySelectorAll('#projectInput')]
+        .filter(el => !el.checked)
+        .forEach(el => {
+          el.parentElement.style.backgroundColor = '#141F47';
+          el.parentElement.style.color = '#f8f8f8';
+        });
 
       return;
     }
@@ -89,6 +94,20 @@ const ProjectBox = () => {
             information about each track. Create and save new playlists of
             recommended tracks based on your existing playlists and more.
           </ProjectText>
+          <div style={{ textAlign: 'end' }}>
+            <ProjectLinks
+              href="https://github.com/Danila-Fateev/site-resume"
+              target="_blank"
+            >
+              Github
+            </ProjectLinks>
+            <ProjectLinks
+              href="https://github.com/Danila-Fateev"
+              target="_blank"
+            >
+              Project
+            </ProjectLinks>
+          </div>
         </ProjectTextBox>
 
         <ProjectTextBox name="Filmoteka" id="projectInfo">
@@ -99,6 +118,20 @@ const ProjectBox = () => {
             information about each track. Create and save new playlists of
             recommended tracks based on your existing playlists and more.
           </ProjectText>
+          <div style={{ textAlign: 'end' }}>
+            <ProjectLinks
+              href="https://github.com/Danila-Fateev/site-resume"
+              target="_blank"
+            >
+              Github
+            </ProjectLinks>
+            <ProjectLinks
+              href="https://github.com/Danila-Fateev"
+              target="_blank"
+            >
+              Project
+            </ProjectLinks>
+          </div>
         </ProjectTextBox>
       </ProjectBoxStyled>
     </Container>

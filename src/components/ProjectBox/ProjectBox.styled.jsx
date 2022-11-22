@@ -10,9 +10,6 @@ const ProjectBoxStyled = styled.div`
 
 const ProjectInput = styled.input`
   visibility: hidden;
-  &:checked {
-    visibility: visible;
-  }
 `;
 
 const ProjectLabel = styled.label`
@@ -24,8 +21,6 @@ const ProjectLabel = styled.label`
   color: #f8f8f8;
   padding: 20px;
   letter-spacing: 0.07em;
-  border-right: 1px solid #28568c;
-  border-bottom: 1px solid #28568c;
 
   &:hover {
     cursor: pointer;
@@ -48,7 +43,6 @@ const ProjectText = styled.p`
   font-weight: 700;
   font-size: 18px;
   line-height: 1.22;
-
   padding: 25px;
 `;
 
@@ -64,6 +58,22 @@ const ProjectTextBox = styled.div`
   background-color: #0ec5ff;
 `;
 
+const ProjectLinks = styled.a`
+  display: inline-block;
+  text-align: end;
+  color: inherit;
+  text-decoration: none;
+  transition: color 250ms;
+  &:hover {
+    color: white;
+    fill: white;
+  }
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+`;
+
 const styledComponents = {
   ProjectBoxStyled,
   ProjectLabel,
@@ -71,6 +81,7 @@ const styledComponents = {
   ProjectTextHeading,
   ProjectText,
   ProjectTextBox,
+  ProjectLinks,
 };
 
 export default styledComponents;

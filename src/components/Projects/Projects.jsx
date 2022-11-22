@@ -1,13 +1,13 @@
 import ProjectBox from 'components/ProjectBox';
 import Section from 'components/Section';
-import styledComponents from './Projects.styled';
+import styledComponents from '../../commonStyles/CommonStyles';
 
-const { ProjectTitle } = styledComponents;
+const { SectionTitleStyled } = styledComponents;
 
 const Projects = () => {
   return (
     <Section>
-      <ProjectTitle id="projects">Projects</ProjectTitle>
+      <SectionTitleStyled id="projects">Projects</SectionTitleStyled>
       <ProjectBox />
     </Section>
   );
