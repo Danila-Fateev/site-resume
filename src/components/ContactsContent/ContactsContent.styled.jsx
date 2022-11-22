@@ -13,7 +13,8 @@ const TextAboutMe = styled.p`
   color: #ffffff;
 `;
 
-const TextAboutMeSpan = styled.span`
+const TextAboutMeLink = styled.a`
+  text-decoration: none;
   color: #7abfff;
 `;
 
@@ -78,7 +79,7 @@ const ContactsTextEmail = styled.a`
 
 const styledComponents = {
   TextAboutMe,
-  TextAboutMeSpan,
+  TextAboutMeLink,
   ResumeLink,
   MailLink,
   ContactsText,
