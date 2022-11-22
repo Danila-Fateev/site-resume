@@ -89,10 +89,9 @@ const ProjectBox = () => {
         <ProjectTextBox name="IceCream" id="projectInfo">
           <ProjectTextHeading>Description:</ProjectTextHeading>
           <ProjectText>
-            A web app for visualizing personalized Spotify data. View your top
-            artists, top tracks, recently played tracks, and detailed audio
-            information about each track. Create and save new playlists of
-            recommended tracks based on your existing playlists and more.
+            An IceCream company site that provides information about how
+            company's ice cream made, company's products and info about contact.
+            Also you can buy their goods and see their location.
           </ProjectText>
           <div style={{ textAlign: 'end' }}>
             <ProjectLinks
@@ -142,10 +141,8 @@ const ProjectBox = () => {
         <ProjectTextBox name="Filmoteka" id="projectInfo">
           <ProjectTextHeading>Description:</ProjectTextHeading>
           <ProjectText>
-            A web app for visualizing personalized Spotify data. View your top
-            artists, top tracks, recently played tracks, and detailed audio
-            information about each track. Create and save new playlists of
-            recommended tracks based on your existing playlists and more.
+            A web app for visualizing movie library. See top films, add movies
+            to your favourite, search films by filters and see movie details.
           </ProjectText>
           <div style={{ textAlign: 'end' }}>
             <ProjectLinks

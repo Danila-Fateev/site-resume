@@ -15,10 +15,9 @@ const AboutBox = () => {
         <AboutBoxText>
           Hey, my name is Danila Fatyeyev.
           <br />
-          <br /> I am a front-end web developer from Ukraine. I am also
-          passionate about pop music and make portraits and universes around
-          what I listen to and I’m always curious to learn more when it comes to
-          new technologies and creative coding.
+          <br /> I am a front-end web developer from Ukraine. I focus on HTML5,
+          CSS3, JS, React. I’m always curious to learn more when it comes to new
+          technologies and creative coding.
         </AboutBoxText>
       </AboutBoxStyled>
       <AboutImgBox>
