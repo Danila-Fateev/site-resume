@@ -140,7 +140,7 @@ const ProjectBox = () => {
         </ProjectTextBox>
 
         <ProjectTextBox name="Filmoteka" id="projectInfo">
-          <ProjectTextHeading>NOTDescription:</ProjectTextHeading>
+          <ProjectTextHeading>Description:</ProjectTextHeading>
           <ProjectText>
             A web app for visualizing personalized Spotify data. View your top
             artists, top tracks, recently played tracks, and detailed audio
