@@ -6,7 +6,7 @@ import './index.css';
 import './fonts/Righteous-Regular.ttf';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/goit-react-hw-07-phonebook/">
     <React.StrictMode>
       <App />
     </React.StrictMode>
