@@ -1,6 +1,6 @@
 import styledComponents from './AboutBox.styled';
-
-const { AboutBoxStyled, AboutBoxText } = styledComponents;
+import image from '../../images/ImageForResumeSite.png';
+const { AboutBoxStyled, AboutBoxText, AboutImgBox } = styledComponents;
 
 const AboutBox = () => {
   return (
@@ -8,6 +8,7 @@ const AboutBox = () => {
       style={{
         marginLeft: 'auto',
         marginRight: 'auto',
+        display: 'flex',
       }}
     >
       <AboutBoxStyled>
@@ -20,6 +21,28 @@ const AboutBox = () => {
           new technologies and creative coding.
         </AboutBoxText>
       </AboutBoxStyled>
+      <AboutImgBox>
+        <div
+          style={{
+            display: 'block',
+            width: '290px',
+            height: 'auto',
+            visibility: 'hidden',
+          }}
+        ></div>
+        <img
+          src={image}
+          alt="resume"
+          style={{
+            display: 'block',
+            width: '290px',
+            height: 'auto',
+            position: 'absolute',
+            top: '-50px',
+            left: '-15px',
+          }}
+        />
+      </AboutImgBox>
     </div>
   );
 };
