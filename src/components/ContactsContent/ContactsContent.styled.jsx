@@ -77,6 +77,17 @@ const ContactsTextEmail = styled.a`
   color: #7abfff;
 `;
 
+const ContactsList = styled.ul`
+  display: flex;
+  list-style: none;
+`;
+
+const ContactsItem = styled.li`
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+`;
+
 const styledComponents = {
   TextAboutMe,
   TextAboutMeLink,
@@ -84,6 +95,8 @@ const styledComponents = {
   MailLink,
   ContactsText,
   ContactsTextEmail,
+  ContactsList,
+  ContactsItem,
 };
 
 export default styledComponents;

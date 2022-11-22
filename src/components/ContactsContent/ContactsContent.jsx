@@ -6,6 +6,8 @@ const {
   MailLink,
   ContactsText,
   ContactsTextEmail,
+  ContactsList,
+  ContactsItem,
 } = styledComponents;
 
 const ContactsContent = () => {
@@ -57,8 +59,10 @@ const ContactsContent = () => {
           <br />
           and my social medias:
           <br />
-          <ul>
-            <li>
+          <br />
+          <br />
+          <ContactsList>
+            <ContactsItem>
               <a
                 href="https://github.com/Danila-Fateev"
                 target="_blank"
@@ -79,8 +83,8 @@ const ContactsContent = () => {
                   />
                 </svg>
               </a>
-            </li>
-            <li>
+            </ContactsItem>
+            <ContactsItem>
               <a
                 href="https://www.linkedin.com/in/danila-fatyeyev-a853a5249/"
                 target="_blank"
@@ -99,8 +103,8 @@ const ContactsContent = () => {
                   />
                 </svg>
               </a>
-            </li>
-            <li>
+            </ContactsItem>
+            <ContactsItem>
               <a
                 href="https://t.me/DanilaFatyeyev"
                 target="_blank"
@@ -119,8 +123,8 @@ const ContactsContent = () => {
                   />
                 </svg>
               </a>
-            </li>
-          </ul>
+            </ContactsItem>
+          </ContactsList>
         </ContactsText>
       </div>
     </div>
